@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: auto;
+    list-style: none;
+    padding: 0.5em 0;
+}
+
+nav li a {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #7c7c84;
+}
+
+.content {
+    margin: 65px 60px 30px 225px;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    grid-area: footer;
+    text-align: center;
+    margin-top: 100px;
+}
